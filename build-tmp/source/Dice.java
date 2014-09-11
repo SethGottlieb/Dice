@@ -19,13 +19,13 @@ Die two;
 public void setup()
 {
 	noLoop();
-	size(1920, 1080);
+	size(3840, 2160);
 }
 public void draw()
 {
 	background(97, 60, 242);
-	for (int i = 0; i < 1920; i = i + 10) {
-		for (int j = 0; j < 1080; j = j + 10) {
+	for (int i = 0; i < 3840; i = i + 10) {
+		for (int j = 0; j < 2160; j = j + 10) {
 			one = new Die(0+i,0+j);
 			two = new Die(10+i,10+j);
 			one.roll();
