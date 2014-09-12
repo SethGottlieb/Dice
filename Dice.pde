@@ -1,5 +1,4 @@
 Die one;
-Die two;
 void setup()
 {
 	noLoop();
@@ -11,11 +10,8 @@ void draw()
 	for (int i = 0; i < 3840; i = i + 10) {
 		for (int j = 0; j < 2160; j = j + 10) {
 			one = new Die(0+i,0+j);
-			two = new Die(10+i,10+j);
 			one.roll();
-			two.roll();
 			one.show();
-			two.show();
 		}
 	}
 }
